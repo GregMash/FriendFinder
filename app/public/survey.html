@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3">Friend Survey!</h1>
+            <p class="lead">Please fill out the form below to upload your profile and start matching with friends!</p>
+        </div>
+    </div>
+    <form>
+        <div class="form-group col-md-10">
+            <label for="name">First Name</label>
+            <input type="name" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter your first name">
+        </div>
+        <div class="form-group col-md-10">
+            <label for="photo">Photo</label>
+            <input type="photo" class="form-control" id="photo" aria-describedby="photoHelp" placeholder="Enter photo URL">
+        </div>
+        <hr>
+        <div class="form-group col-md-10">
+            <label for="instructions">Instructions: Please select a number for each statement (1 = strongly disagree, 5
+                = strongly agree).</label>
+        </div>
+        <hr>
+        <div class="form-group col-md-10">
+            <label for="question1">I love the outdoor lifestyle. You can find me hiking, camping, skiing, snowboarding,
+                or
+                stargazing.</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question1" id="q1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question1" id="q1" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question1" id="q1" value="3">
+            <label class="form-check-label" for="inlineRadio3">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question1" id="q1" value="4">
+            <label class="form-check-label" for="inlineRadio4">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question1" id="q1" value="5">
+            <label class="form-check-label" for="inlineRadio5">5</label>
+        </div>
+        <hr>
+        <div class="form-group col-md-10">
+            <label for="question2">I am a homebody. You can find me watching movies, playing games, or reading.</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question2" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question2" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question2" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio1">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question2" id="inlineRadio4" value="4">
+            <label class="form-check-label" for="inlineRadio2">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question2" id="inlineRadio5" value="5">
+            <label class="form-check-label" for="inlineRadio1">5</label>
+        </div>
+        <hr>
+        <div class="form-group col-md-10">
+            <label for="question3">I prefer to spend most of my free time with few people or by myself.</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question3" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question3" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question3" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio1">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question3" id="inlineRadio4" value="4">
+            <label class="form-check-label" for="inlineRadio2">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question3" id="inlineRadio5" value="5">
+            <label class="form-check-label" for="inlineRadio1">5</label>
+        </div>
+        <hr>
+        <div class="form-group col-md-10">
+            <label for="question4">I rely on imagination over experience.</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question4" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question4" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question4" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio1">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question4" id="inlineRadio4" value="4">
+            <label class="form-check-label" for="inlineRadio2">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question4" id="inlineRadio5" value="5">
+            <label class="form-check-label" for="inlineRadio1">5</label>
+        </div>
+        <hr>
+        <div class="form-group col-md-10">
+            <label for="question5">I love participating/watching sports and athletic competitions.</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question5" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question5" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question5" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio1">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question5" id="inlineRadio4" value="4">
+            <label class="form-check-label" for="inlineRadio2">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question5" id="inlineRadio5" value="5">
+            <label class="form-check-label" for="inlineRadio1">5</label>
+        </div>
+        <hr>
+        <div class="form-group col-md-10">
+            <label for="question6">I am always eager to try new things.</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question6" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question6" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question6" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio1">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question6" id="inlineRadio4" value="4">
+            <label class="form-check-label" for="inlineRadio2">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question6" id="inlineRadio5" value="5">
+            <label class="form-check-label" for="inlineRadio1">5</label>
+        </div>
+        <hr>
+        <div class="form-group col-md-10">
+            <label for="question7">I am hesitant of change in life.</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question7" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question7" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question7" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio1">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question7" id="inlineRadio4" value="4">
+            <label class="form-check-label" for="inlineRadio2">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question7" id="inlineRadio5" value="5">
+            <label class="form-check-label" for="inlineRadio1">5</label>
+        </div>
+        <hr>
+        <div class="form-group col-md-10">
+            <label for="question8">I am relaxed and focused even under pressure.</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question8" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question8" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question8" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio1">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question8" id="inlineRadio4" value="4">
+            <label class="form-check-label" for="inlineRadio2">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question8" id="inlineRadio5" value="5">
+            <label class="form-check-label" for="inlineRadio1">5</label>
+        </div>
+        <hr>
+        <div class="form-group col-md-10">
+            <label for="question9">I am highly organized and clean at home.</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question9" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question9" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question9" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio1">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question9" id="inlineRadio4" value="4">
+            <label class="form-check-label" for="inlineRadio2">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question9" id="inlineRadio5" value="5">
+            <label class="form-check-label" for="inlineRadio1">5</label>
+        </div>
+        <hr>
+        <div class="form-group col-md-10">
+            <label for="question10">I prefer cats over dogs.</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question10" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question10" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question10" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio1">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question10" id="inlineRadio4" value="4">
+            <label class="form-check-label" for="inlineRadio2">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="question10" id="inlineRadio5" value="5">
+            <label class="form-check-label" for="inlineRadio1">5</label>
+        </div>
+        <hr>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" id="matchBtn" data-toggle="modal" data-target="#exampleModal">
+            Match me!
+        </button>
+    </form>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">View Their Profile</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/surveyLogic.js"></script>
+
+</body>
+
+</html>
