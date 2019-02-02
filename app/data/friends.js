@@ -1,6 +1,6 @@
 const friendArr = [{
     name: 'Jan',
-    photo: 'photo_url',
+    image: './assets/images/jan.png',
     scores: [
         1,
         5,
@@ -11,46 +11,46 @@ const friendArr = [{
         3,
         4,
         5,
-        4
-    ]
-},
-{
-    name: 'Michael',
-    photo: 'photo_url',
-    scores: [
-        2,
-        4,
-        2,
-        5,
-        4,
-        1,
-        5,
-        1,
-        5,
-        4
-    ]
-},
-{
-    name: 'Jim',
-    photo: 'photo_url',
-    scores: [
-        3,
-        3,
-        3,
-        3,
-        4,
-        2,
-        2,
-        1,
-        2,
         5
     ]
 },
 {
-    name: 'Pam',
-    photo: 'photo_url',
+    name: 'Michael',
+    image: './assets/images/michael.png',
     scores: [
+        2,
+        4,
+        2,
         5,
+        4,
+        1,
+        5,
+        1,
+        5,
+        1
+    ]
+},
+{
+    name: 'Jim',
+    image: './assets/images/jim.png',
+    scores: [
+        3,
+        3,
+        3,
+        3,
+        4,
+        2,
+        2,
+        1,
+        2,
+        1
+    ]
+},
+{
+    name: 'Pam',
+    image: './assets/images/pam.png',
+    scores: [
+        4,
         1,
         1,
         5,
@@ -64,9 +64,9 @@ const friendArr = [{
 },
 {
     name: 'Kevin',
-    photo: 'photo_url',
+    image: './assets/images/kevin.png',
     scores: [
-        1,
+        5,
         3,
         2,
         4,
@@ -75,14 +75,14 @@ const friendArr = [{
         3,
         5,
         5,
-        4
+        1
     ]
 },
 {
     name: 'Erin',
-    photo: 'photo_url',
+    image: './assets/images/erin.png',
     scores: [
-        2,
+        5,
         3,
         2,
         5,
@@ -91,20 +91,20 @@ const friendArr = [{
         3,
         1,
         2,
-        4
+        5
     ]
 },
 {
     name: 'Stanley',
-    photo: 'photo_url',
+    image: './assets/images/stanley.png',
     scores: [
-        2,
-        3,
-        2,
-        3,
         4,
+        3,
         2,
         3,
+        2,
+        2,
+        1,
         1,
         2,
         4
@@ -112,9 +112,9 @@ const friendArr = [{
 },
 {
     name: 'Phyllis',
-    photo: 'photo_url',
+    image: './assets/images/phyllis.png',
     scores: [
-        4,
+        3,
         3,
         2,
         5,
@@ -128,34 +128,34 @@ const friendArr = [{
 },
 {
     name: 'Creed',
-    photo: 'photo_url',
+    image: './assets/images/creed.png',
     scores: [
-        4,
-        3,
-        2,
-        5,
-        4,
         5,
         3,
-        1,
-        1,
-        1
+        4,
+        5,
+        4,
+        5,
+        5,
+        5,
+        4,
+        5
     ]
 },
 {
     name: 'Andy',
-    photo: 'photo_url',
+    image: './assets/images/andy.png',
     scores: [
-        3,
-        3,
-        3,
-        5,
-        4,
-        2,
-        5,
         1,
-        4,
-        3
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1
     ]
 }];
 
